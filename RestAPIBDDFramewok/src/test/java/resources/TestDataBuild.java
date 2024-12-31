@@ -44,4 +44,12 @@ public class TestDataBuild {
   	{
   		return "{\r\n    \"place_id\":\""+placeId+"\"\r\n}";
   	}
+    public String deletePlacePayloadThree(String placeId)
+   	{
+   		return "{\r\n    \"place_id\":\""+placeId+"\"\r\n}";
+   	}
+    public String deletePlacePayloadFour(String placeId)
+   	{
+   		return "{\r\n    \"place_id\":\""+placeId+"\"\r\n}";
+   	}
 }
